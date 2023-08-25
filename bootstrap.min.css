@@ -8071,6 +8071,8 @@ fieldset:disabled .btn {
 
 .d-inline-block {
     display: inline-block !important
+    padding: 0.35em 1.2em;
+    margin: 0 0.3em 0.3em 0;
 }
 
 .d-block {
