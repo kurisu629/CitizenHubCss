@@ -8,14 +8,7 @@
   }
 
   .cont {
-    position: relative;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 0;
+    
   }
 
   @media (min-width: 576px) {
@@ -33,7 +26,7 @@
   }
 
   .cont {
-    padding-bottom: 50px;
+   
   }
 
   
