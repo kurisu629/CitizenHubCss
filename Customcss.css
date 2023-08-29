@@ -7,10 +7,6 @@
     }
   }
 
-  .cont {
-    
-  }
-
   @media (min-width: 576px) {
     .cont {
       min-height: 680px;
