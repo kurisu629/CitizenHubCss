@@ -1,3 +1,71 @@
 .row1{
         backgroundColor: 'red'     
 }
+  @media (min-width: 576px) {
+    .cont .text {
+      padding: 0px;
+    }
+  }
+
+  .cont .text {
+    max-width: 640px;
+    color: #fff;
+    z-index: 2;
+    padding: 40px 15px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.15);
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  .cont {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  .cont:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: currentColor;
+    z-index: 1;
+  }
+
+  @media (min-width: 576px) {
+    .cont {
+      min-height: 680px;
+    }
+  }
+
+  .cont {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: 576px) {
+    .cont {
+      padding-bottom: 100px;
+    }
+  }
+
+  .cont {
+    padding-bottom: 50px;
+  }
+
+  
