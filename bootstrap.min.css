@@ -2666,7 +2666,7 @@ textarea.form-control-lg {
 .form-control-color.form-control-lg {
     height: calc(1.5em + 1rem + 2px)
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
       .form-select {
         width: 20%;
       }
