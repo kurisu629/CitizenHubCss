@@ -2,11 +2,11 @@
         backgroundColor: 'red'     
 }
 
-.Form-Select {
+.Form.Select {
     width: 100%;
   }
 @media (min-width: 768px) {
-    .Form-Select {
+    .Form.Select {
       width: 20%;
     }
   }
