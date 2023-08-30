@@ -1,6 +1,16 @@
 .row1{
         backgroundColor: 'red'     
 }
+
+.Form-Select {
+    width: 100%;
+  }
+@media (min-width: 768px) {
+    .Form-Select {
+      width: 20%;
+    }
+  }
+
   @media (min-width: 576px) {
     .cont .text {
       padding: 0px;
