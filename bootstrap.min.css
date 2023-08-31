@@ -2451,6 +2451,7 @@ progress {
 
 
 .form-control {
+    margin-bottom: 5px;
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -2466,7 +2467,7 @@ progress {
     appearance: none;
     border-radius: .375rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    margin-bottom: 5px;
+    
 }
 
 @media(prefers-reduced-motion: reduce) {
