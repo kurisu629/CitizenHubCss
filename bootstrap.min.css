@@ -2449,9 +2449,7 @@ progress {
     color: #6c757d
 }
 
-
 .form-control {
-    margin-bottom: 20px;
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -2674,6 +2672,9 @@ textarea.form-control-lg {
   .form-select {
     width: 100%;
   }
+    .form-control{
+    margin-bottom: 15px;
+    }
 }
 @media (min-width: 768px) {
 .form-select {
